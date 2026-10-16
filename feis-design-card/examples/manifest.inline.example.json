@@ -1,0 +1,258 @@
+{
+  "output_dir": "/Users/macbook/Documents/wiki/小绿书/卡片输出/华夏衣冠汉服",
+  "brand": {
+    "name": "非叔Design",
+    "logo": "/Users/macbook/.workbuddy/skills/feis-design-card/assets/logo-feishu-tight.png",
+    "logo_h": 46,
+    "copyright": "Copyright © 2026 ｜ 非叔Design"
+  },
+  "cards": [
+    {
+      "no": "01",
+      "rule": true,
+      "title": [
+        "华夏衣冠",
+        {
+          "text": "不止唐、宋、明",
+          "hl": "唐、宋、明"
+        }
+      ],
+      "latin": "HANFU",
+      "images": [
+        {
+          "path": "/Users/macbook/Documents/wiki/assets/images/Pasted image 20260918203059.png",
+          "bleed": true,
+          "pos": "center 50%"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "heading": "#曲裾深衣",
+      "subtitle": "汉制 · 长信宫灯",
+      "layout": "inline",
+      "image_at": 1,
+      "paras": [
+        {
+          "text": "曲裾深衣，衣襟绕体而行，行不露足，是汉代礼制与端严之美的源头。"
+        },
+        {
+          "text": "A solemn and refined adult Chinese Han noblewoman, cinematic environmental portrait shot on a 35mm lens, full-length figure walking slowly through the ceremonial courtyard of Weiyang Palace. She has an ancient dignified face, broad calm brows, restrained eyes and a composed expression. Her dark hair is gathered into a formal low bun with jade hairpins; she wears a layered cross-collar shenyi with broad dark borders in lacquer black, cinnabar and muted ochre, holding a long bronze lantern in both hands. The setting includes tall palace gates, painted wooden columns, bronze cranes, cloud-pattern banners, jade ritual vessels and rows of glowing floor lamps, with distant attendants appearing as quiet silhouettes. Cold predawn mist balanced by warm firelight, Chinese mineral-pigment painting fused with luminous cinematic 3D, lacquer, silk, bronze, jade and gold leaf, ancient, ceremonial and exquisite. --s 250",
+          "size": 22,
+          "lead": 1.55,
+          "color": "#3A3A3A"
+        }
+      ],
+      "images": [
+        {
+          "path": "/Users/macbook/Documents/wiki/assets/images/Pasted image 20260918200426.png"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "heading": "#直裾袍",
+      "subtitle": "汉制 · 兰台藏书阁",
+      "layout": "inline",
+      "image_at": 1,
+      "paras": [
+        {
+          "text": "直裾袍是汉代士人风骨，衣襟垂直垂落，端方疏朗，宜表现藏书读经的气象。"
+        },
+        {
+          "text": "A refined adult Chinese Han noblewoman dressed as a scholar, cinematic environmental portrait shot on a 35mm lens, full-length figure standing in an imperial library. She has a slender ancient face, straight thin eyebrows, calm intelligent eyes and a quiet, disciplined expression. Her dark hair is tied into a neat low bun with a simple jade hairpin; she wears a straight-hem zhiju robe with a layered cross collar, dark blue and ivory silk, a wide sash, a jade pendant, and holds a bundle of bamboo slips. The setting includes tall wooden bookshelves, stone classics, bamboo scrolls, ink stones, brushes, bronze cranes and latticed windows. Soft daylight through lattice windows balanced by candle glow, Chinese mineral-pigment painting fused with luminous cinematic 3D, silk, bamboo, ink, lacquer, jade and subtle gold leaf, scholarly, restrained and exquisite. --s 250",
+          "size": 22,
+          "lead": 1.55,
+          "color": "#3A3A3A"
+        }
+      ],
+      "images": [
+        {
+          "path": "/Users/macbook/Documents/wiki/assets/images/Pasted image 20260918195938.png"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "heading": "#齐胸襦裙",
+      "subtitle": "唐制 · 曲江牡丹游春",
+      "layout": "inline",
+      "image_at": 1,
+      "paras": [
+        {
+          "text": "齐胸襦裙配大袖衫、披帛，是盛唐最典型的女装气象，华丽外放、富贵舒展。"
+        },
+        {
+          "text": "A confident and radiant adult Chinese Tang noblewoman, cinematic environmental portrait shot on a 35mm lens, full-length figure standing in a peony garden beside Qujiang Pool. She has a refined rounded face, strong calm eyes, a plump graceful figure and an open confident expression. Her dark hair forms a high sculptural bun with peony ornaments and a gold hairpin; she wears a qixiong ruqun with a chest-high skirt, a large-sleeved daxiushan, and a long pibo scarf in pomegranate red, pale gold and turquoise, with a huadian forehead mark. The setting includes blooming peonies, weeping willows, a painted pavilion, parrots, a round silk fan, attendants and distant palace roofs. Warm amber sunlight and soft spring haze, Chinese mineral-pigment painting fused with luminous cinematic 3D, silk, gold thread, pearl, jade and gold leaf, prosperous, open and exquisite. --s 250",
+          "size": 22,
+          "lead": 1.55,
+          "color": "#3A3A3A"
+        }
+      ],
+      "images": [
+        {
+          "path": "/Users/macbook/Documents/wiki/assets/images/Pasted image 20260918195950.png"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "heading": "#半臂襦裙",
+      "subtitle": "唐制 · 唐宫秋千",
+      "layout": "inline",
+      "image_at": 1,
+      "paras": [
+        {
+          "text": "半臂是唐代女装里的利落日常，短袖外搭、明快轻巧，与齐胸大袖互为对照。"
+        },
+        {
+          "text": "A lively and elegant adult Chinese Tang palace lady, cinematic environmental portrait shot on a 35mm lens, full-length figure seated on a garden swing in a Tang palace courtyard. She has a bright rounded face, lively eyes, a small nose and a confident smile. Her dark hair is arranged in a high bun with small gold ornaments and a coral hairpin; she wears a cross-collar short ruqun with a banbi short-sleeved jacket, a striped high-waisted skirt, a narrow pibo scarf and soft leather shoes. The setting includes a wooden swing, pomegranate flowers, a parrot on a perch, a pitch-pot game, painted corridors, attendants and stone lions. Warm afternoon light with dappled leaf shadows, Chinese mineral-pigment painting fused with luminous cinematic 3D, silk, brocade, gold thread, lacquer and jade, playful, courtly and exquisite. --s 250",
+          "size": 22,
+          "lead": 1.55,
+          "color": "#3A3A3A"
+        }
+      ],
+      "images": [
+        {
+          "path": "/Users/macbook/Documents/wiki/assets/images/Pasted image 20260918200008.png"
+        }
+      ]
+    },
+    {
+      "no": "06",
+      "heading": "#披风马面",
+      "subtitle": "明制 · 雪庭寻梅",
+      "layout": "inline",
+      "image_at": 1,
+      "paras": [
+        {
+          "text": "明制披风宽大端方，内搭竖领袄与马面裙，是明代冬装贵气与礼序的代表。"
+        },
+        {
+          "text": "A dignified and graceful adult Chinese Ming noblewoman, cinematic environmental portrait shot on a 35mm lens, full-length figure walking in a snow-covered garden beneath plum blossoms. She has a full dignified face, a broad forehead, steady gentle eyes and an upright composed posture. Her dark hair is arranged in a low jeweled bun with gold phoenix hairpins; she wears a standing-collar ao, a dark blue embroidered pifeng cloak, a richly pleated mamianqun with gold cloud and plum patterns, and holds a brass hand warmer. The setting includes drifting snow, old plum trees, red palace walls, a covered corridor, hanging lanterns, stone lions and maids as quiet silhouettes. Cool winter light balanced by warm lantern glow, Chinese mineral-pigment painting fused with luminous cinematic 3D, brocade, fur, lacquer, jade and gold leaf, ceremonial, majestic and exquisite. --s 250",
+          "size": 22,
+          "lead": 1.55,
+          "color": "#3A3A3A"
+        }
+      ],
+      "images": [
+        {
+          "path": "/Users/macbook/Documents/wiki/assets/images/Pasted image 20260918200058.png"
+        }
+      ]
+    },
+    {
+      "no": "07",
+      "heading": "#圆领袍女官",
+      "subtitle": "明制 · 贡院文庙",
+      "layout": "inline",
+      "image_at": 1,
+      "paras": [
+        {
+          "text": "圆领袍本是官服体系，女子着圆领袍有女官与文庙礼制的气象，英气与清贵并存。"
+        },
+        {
+          "text": "A poised and authoritative adult Chinese Ming female official, cinematic environmental portrait shot on a 35mm lens, full-length figure standing before a Confucian temple and imperial examination hall. She has an ancient refined face, sharply shaped brows, steady observant eyes and a reserved authoritative expression. Her dark hair is tied into a neat official bun beneath a black wusha hat; she wears a round-collar yuanlingpao with a mandarin square, a jade leather belt, deep blue and crimson silk, black boots, and holds a bamboo scroll. The setting includes stone steps, red walls, golden plaques, bronze incense burners, ancient cypresses, scholars in the distance and fluttering examination banners. Cool morning light and incense haze, Chinese mineral-pigment painting fused with luminous cinematic 3D, silk, brocade, lacquer, jade and gold leaf, formal, scholarly and exquisite. --s 250",
+          "size": 22,
+          "lead": 1.55,
+          "color": "#3A3A3A"
+        }
+      ],
+      "images": [
+        {
+          "path": "/Users/macbook/Documents/wiki/assets/images/Pasted image 20260918202141.png"
+        }
+      ]
+    },
+    {
+      "no": "08",
+      "heading": "#圆领袍官员",
+      "subtitle": "唐制 · 含元殿早朝",
+      "layout": "inline",
+      "image_at": 1,
+      "paras": [
+        {
+          "text": "唐代圆领袍、幞头、革带与鱼袋俱全，是衣冠治国、盛世礼序的象征。"
+        },
+        {
+          "text": "A dignified adult Chinese Tang official, cinematic environmental portrait shot on a 35mm lens, full-length figure standing on the steps of Hanyuan Hall at morning court. He has a square refined face, sword eyebrows, starlit eyes and a calm authoritative expression. His dark hair is tied beneath a black futou; he wears a deep crimson round-collar yuanlingpao, a gold jade belt, a fish tally, black boots, and holds a hu tablet. The setting includes vast palace steps, bronze cranes, cloud-pattern banners, rows of officials, incense burners and a cold dawn sky. Cool blue dawn balanced by warm palace lanterns, Chinese mineral-pigment painting fused with luminous cinematic 3D, silk, brocade, bronze, jade and gold leaf, ceremonial, majestic and exquisite. --s 250",
+          "size": 22,
+          "lead": 1.55,
+          "color": "#3A3A3A"
+        }
+      ],
+      "list": [
+        {
+          "k": "形制",
+          "v": "圆领袍 · 幞头 · 革带 · 鱼袋"
+        },
+        {
+          "k": "场景",
+          "v": "含元殿丹陛 · 铜鹤 · 云纹幡"
+        },
+        {
+          "k": "光线",
+          "v": "冷调晨光压暖色宫灯"
+        },
+        {
+          "k": "气质",
+          "v": "端严 · 清贵 · 盛世礼序"
+        }
+      ]
+    },
+    {
+      "no": "09",
+      "heading": "#道袍文人",
+      "subtitle": "明制 · 竹下书斋",
+      "layout": "inline",
+      "image_at": 1,
+      "paras": [
+        {
+          "text": "明代道袍是文人日常，宽袖、网巾与儒巾，体现东方文人的清节与山水精神。"
+        },
+        {
+          "text": "A refined adult Chinese Ming scholar, cinematic environmental portrait shot on a 35mm lens, full-length figure seated in a bamboo study beside a paper window. He has a clear slender face, gentle brows, thoughtful eyes and a quiet, self-possessed expression. His dark hair is tied with a wangjin and covered by a rujin; he wears an ivory and ink-gray daopao with wide sleeves, cloth shoes, and holds an open book. The setting includes bamboo, an ink stone, brushes, scrolls, a tea set, a guqin, a landscape screen and a small bronze incense burner. Soft daylight through paper windows and faint candle glow, Chinese mineral-pigment painting fused with luminous cinematic 3D, silk, bamboo, ink, lacquer, jade and subtle gold leaf, scholarly, restrained and exquisite. --s 250",
+          "size": 22,
+          "lead": 1.55,
+          "color": "#3A3A3A"
+        }
+      ],
+      "images": [
+        {
+          "path": "/Users/macbook/Documents/wiki/assets/images/Pasted image 20260918200125.png"
+        }
+      ]
+    },
+    {
+      "no": "10",
+      "heading": "#通用风格",
+      "subtitle": "全组通用参数",
+      "layout": "inline",
+      "image_at": 1,
+      "paras": [
+        {
+          "text": "全组八套形制共用同一条风格串，换的只是人物与场景，其余参数不动。"
+        },
+        "做汉服系列，尽量别混入和服、韩服或影楼风。"
+      ],
+      "list": [
+        {
+          "k": "风格",
+          "v": "cinematic environmental portrait · 35mm · full-length"
+        },
+        {
+          "k": "质感",
+          "v": "Chinese mineral-pigment painting fused with luminous cinematic 3D"
+        },
+        {
+          "k": "比例",
+          "v": "竖版图文统一在末尾加 --ar 3:4"
+        },
+        {
+          "k": "负面",
+          "v": "--no kimono, hanbok, modern clothing"
+        }
+      ]
+    }
+  ]
+}

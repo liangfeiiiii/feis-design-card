@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""gap — 量一张/一组卡的「顶隙」与「底隙」。
+
+  顶隙 = 页眉底线 → 标题墨迹顶   （valign:"fixed" 时全组必须一致）
+  底隙 = 正文墨迹底 → 页脚顶线
+
+用法（在卡片输出目录内）:
+  scripts/gap                 # 量目录内全部 card_*.png
+  scripts/gap 02 03 08        # 只量指定编号
+
+依赖同目录的 rowprofile。2026-09-23 为压花玻璃卡组顶隙对齐而写。
+"""
+import glob, os, re, subprocess, sys
+
+RP = os.path.join(os.path.dirname(os.path.abspath(__file__)), "rowprofile")
+
+def blocks(png):
+    out = subprocess.run([RP, png, "235", "6"], capture_output=True, text=True).stdout
+    bs = []
+    for ln in out.splitlines():
+        m = re.match(r"\s*\d+\s*\|\s*(\d+)\.\.(\d+)\s*\|", ln)
+        if m:
+            bs.append((int(m.group(1)), int(m.group(2))))
+    return bs
+
+def gaps(png):
+    bs = blocks(png)
+    if not bs:
+        return None
+    hdr = [b for b in bs if b[1] < 130]           # 报头（logo/导航）
+    hb = max(b[1] for b in hdr) if hdr else 0
+    foot = [b for b in bs if b[0] > 1370]          # 报尾
+    fb = min(b[0] for b in foot) if foot else 1385
+    mid = [b for b in bs if b[0] >= 130 and b[1] <= 1370]
+    if not mid:
+        return None
+    top = min(b[0] for b in mid)
+    bot = max(b[1] for b in mid)
+    return top - hb, fb - bot
+
+def main():
+    if len(sys.argv) > 1:
+        files = ["card_%s.png" % a.zfill(2) for a in sys.argv[1:]]
+    else:
+        files = sorted(glob.glob("card_*.png"))
+    for f in files:
+        if not os.path.exists(f):
+            continue
+        g = gaps(f)
+        if g:
+            print("%-14s 顶隙 %3dpx   底隙 %3dpx   差 %+d" % (f, g[0], g[1], g[0] - g[1]))
+
+if __name__ == "__main__":
+    main()
