@@ -28,11 +28,9 @@
 
 > 《京剧压迫感人像》一组 11 张里的两张。左边封面，右边内页，真卡直出。
 
-<p align="center">
-  <img src="docs/card-01-cover.png" width="420" alt="封面卡：京剧人像，出血大图压到报尾">
-  &nbsp;
-  <img src="docs/card-07-sample.png" width="420" alt="内页卡：武生，通栏配图加英文提示词">
-</p>
+| 封面卡 | 内页卡 |
+|:---:|:---:|
+| ![封面卡：京剧人像，出血大图压到报尾](docs/card-01-cover.png) | ![内页卡：武生，通栏配图加英文提示词](docs/card-07-sample.png) |
 
 ### 卡片报头
 
