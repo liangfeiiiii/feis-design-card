@@ -26,7 +26,13 @@
 
 ## 效果示例
 
-> 输入一份 manifest，下面是一张卡上排出来的内容。
+> 《京剧压迫感人像》一组 11 张里的两张。左边封面，右边内页，真卡直出。
+
+<p align="center">
+  <img src="docs/card-01-cover.png" width="420" alt="封面卡：京剧人像，出血大图压到报尾">
+  &nbsp;
+  <img src="docs/card-07-sample.png" width="420" alt="内页卡：武生，通栏配图加英文提示词">
+</p>
 
 ### 卡片报头
 
@@ -162,22 +168,27 @@ scripts/pixdiff a.png b.png              # 两次渲染是否一致
 ## 仓库结构
 
 ```
-feis-design-card/
-├── SKILL.md                          # 完整规格：版式、manifest 字段、踩坑记录
-├── assets/
-│   ├── SmileySans.otf.ttf            # 得意黑（SIL OFL）
-│   └── logo-feishu*.png              # 书法 logo
-├── examples/
-│   ├── manifest.example.json         # 基础版式示例（stack / list / quote）
-│   └── manifest.inline.example.json  # 通栏配图版式示例
-└── scripts/
-    ├── render.py                     # 渲染主脚本，唯一入口
-    ├── snap.swift + snap             # WebKit 截图
-    ├── logo.swift + logo             # 书法 logo 生成
-    ├── gap                           # 验版：顶隙 / 底隙
-    ├── rowprofile.swift + rowprofile # 验版：行剖面
-    ├── colprofile.swift + colprofile # 验版：列剖面
-    └── pixdiff.swift + pixdiff       # 验版：像素比对
+feis-design-card-repo/
+├── README.md
+├── docs/
+│   ├── card-01-cover.png             # 效果示例：封面卡（真卡直出）
+│   └── card-07-sample.png            # 效果示例：内页卡
+└── feis-design-card/
+    ├── SKILL.md                      # 完整规格：版式、manifest 字段、踩坑记录
+    ├── assets/
+    │   ├── SmileySans.otf.ttf        # 得意黑（SIL OFL）
+    │   └── logo-feishu*.png          # 书法 logo
+    ├── examples/
+    │   ├── manifest.example.json     # 基础版式示例（stack / list / quote）
+    │   └── manifest.inline.example.json  # 通栏配图版式示例
+    └── scripts/
+        ├── render.py                 # 渲染主脚本，唯一入口
+        ├── snap.swift + snap         # WebKit 截图
+        ├── logo.swift + logo         # 书法 logo 生成
+        ├── gap                       # 验版：顶隙 / 底隙
+        ├── rowprofile.swift + rowprofile # 验版：行剖面
+        ├── colprofile.swift + colprofile # 验版：列剖面
+        └── pixdiff.swift + pixdiff   # 验版：像素比对
 ```
 
 ---
